@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context=".ChildParentOption">
+
+    <Button
+        android:id="@+id/btnParent"
+        android:layout_width="350dip"
+        android:layout_height="100dip"
+        android:text="Parents / Doctor"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnChild"
+        android:layout_width="350dip"
+        android:layout_height="100dip"
+        android:text="Student / Child"
+        android:textSize="25dp"
+        />
+
+
+
+
+</LinearLayout>

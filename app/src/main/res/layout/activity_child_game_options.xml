@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context=".ChildGameOptions">
+
+    <Button
+        android:id="@+id/btnGame02"
+        android:layout_width="350dip"
+        android:layout_height="100dip"
+        android:text="Matching Game"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnGame01"
+        android:layout_width="350dip"
+        android:layout_height="100dip"
+        android:text="Cross the road"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnGame03"
+        android:layout_width="350dip"
+        android:layout_height="100dip"
+        android:text="Puzzle Solving"
+        android:textSize="25dp"
+        />
+
+
+
+
+</LinearLayout>

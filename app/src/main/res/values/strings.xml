@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DevChild</string>
+    <string name="title_activity_animation">animation</string>
+    <string name="title_activity_view">View</string>
+    <string name="title_activity_selection_parent">SelectionParent</string>
+    <string name="title_activity_select_game">SelectGame</string>
+    <string name="title_activity_gif">Gif</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_user_option">UserOption</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_activity_parent_options">ParentOptions</string>
+    <string name="title_activity_multi_sequence">MultiSequence</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MultiSequence">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <Button
+
+            android:id="@+id/idBrushSeq"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+            android:background="#58A2D4"
+           android:text="Brush Sequence"
+            android:textSize="30sp"
+           />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+        <Button
+            android:id="@+id/idWeather"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#58A2D4"
+            android:text="Weather Sequence"
+            android:textSize="30sp"
+            />
+
+        </LinearLayout>
+
+
+</LinearLayout>
